@@ -1,0 +1,85 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+body{
+background-image: url('https://e7.pngegg.com/pngimages/384/327/png-clipart-euclidean-mathematics-calculation-illustration-calculator-electronics-school-supplies-thumbnail.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1520px 700px;
+}
+
+
+h1{
+    margin-top: 70px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 5px 5px 10px 30px;
+    font-size: 40px;
+    color:royalblue;
+    border: 3px solid brown;
+    border-radius: 15px;
+    background-color: yellow;
+}
+.container{
+    /* background-color: palevioletred; */
+    margin: 100px 350px 0px 350px;
+    padding: 100px 50px 100px 50px;
+    justify-content: space-between;
+    
+}
+
+.div1{
+    /* background-color: lavender; */
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 3px dashed peru;
+    border-radius: 5px;
+    /* background-color: palegreen; */
+}
+
+.div2{
+    /* background-color: rosybrown; */
+    margin-top: 50px;
+    padding: 10px;
+    border: 3px dashed peru;
+    border-radius: 5px;
+    /* background-color: peru; */
+}
+
+
+.div1 label{
+    margin-right: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div2 label{
+    margin-right: 195px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    margin-right: 30px;
+    padding: 5px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+
+
+select{
+    padding: 5px;
+    border: 2px solid lawngreen;
+    border-radius: 5px;
+}
+
+h1:hover{
+    background-color: wheat;
+    color: brown;
+    border: 3px dashed darkgreen;
+    transition: 1.5s;
+   
+}
